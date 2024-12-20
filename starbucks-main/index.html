@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="icon" type="image/png" href="./assets/starbucks.png" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;900&display=swap" rel="stylesheet">
+    <title>starbucks</title>
+</head>
+
+<body>
+    <div class="circle"></div>
+    <header>
+        <img src="./assets/logo.png" alt="" class="logo">
+    </header>
+    <main>
+        <div class="description">
+            <h2>It's not just Coffee <br>
+                It's <span>Starbucks</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eum corrupti odit aperiam illum odio
+                voluptatum ea nisi iure vero. Neque tempore sequi nisi, enim vel omnis cumque delectus odit.</p>
+            <button>Compre Agora!</button>
+        </div>
+        <div class="container-image">
+            <img src="./assets/img1.png" alt="" class="starbucks">
+        </div>
+    </main>
+    <footer>
+        <img src="./assets/thumb1.png" alt="" class="menu-img"
+            onclick="rootImage('./assets/img1.png'), circleBackground('#017243')">
+        <img src="./assets/thumb2.png" alt="" class="menu-img"
+            onclick="rootImage('./assets/img2.png'), circleBackground('#eb7495')">
+        <img src="./assets/thumb3.png" alt="" class="menu-img"
+            onclick="rootImage('./assets/img3.png'), circleBackground('#d752b1')">
+    </footer>
+</body>
+<script src="./script.js"></script>
+
+</html>
